@@ -1,0 +1,49 @@
+.cardContainer {
+    width: 300px;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1), 
+    0 2px 2px rgba(0,0,0,0.1), 
+    0 4px 4px rgba(0,0,0,0.1), 
+    0 8px 8px rgba(0,0,0,0.1),
+    0 16px 16px rgba(0,0,0,0.1);
+}
+
+.cardContainer p, .cardContainer h2 {
+    color: black;
+}
+
+.cardOverContainer p, .cardOverContainer h2 {
+    color: white;
+}
+
+
+.cardOverContainer {
+    width: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #DC0812;
+    padding: 1rem;
+    box-sizing: border-box;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
+    overflow: auto;
+    max-height: 100%;
+}
+
+.cardContainer:hover .cardOverContainer {
+    transform: translateY(0%);
+}
+
+/* .cardContainer img {
+    width: 150px;
+    height: 300px;
+} */
+

@@ -1,0 +1,54 @@
+.headerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    height: 90px;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0px 1px 6px 4px rgb(189, 189, 189);
+    /* position: fixed;
+    top: 0; */
+}
+
+#links ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#links {
+    flex-basis: 50%;
+}
+
+#links li {
+    padding: 5%;
+}
+
+
+#siteLogo {
+    flex-basis: 20%;
+}
+
+#search  {
+    flex-basis: 20%;
+}
+
+#siteLogo img {
+    width: 160px;
+    height: 50px;
+}
+
+#login {
+    flex-basis: 10%;
+}
+
+#login a {
+    text-decoration: none;
+}
+
+.navBar {
+    text-decoration: none;
+    color: black;
+}
