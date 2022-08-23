@@ -48,3 +48,24 @@
     height: 200px;
 }
 
+
+
+
+@media (min-width:320px)  {
+    .cardContainer {
+        
+    }
+}
+
+@media (min-width:600px) {
+    .cardContainer {
+        flex-basis: 40%;
+    }
+}
+
+@media (min-width:1025px) {
+    .cardContainer {
+        flex-basis: 22%;
+    }
+}
+

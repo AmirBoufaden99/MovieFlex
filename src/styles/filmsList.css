@@ -4,3 +4,23 @@
     margin: 5% 0;
     flex-wrap: wrap;
 }
+
+
+
+
+@media (min-width:320px)  {
+    .cardsContainer {
+        display: block;
+        flex-wrap: nowrap;
+    }
+  }
+
+  @media (min-width:600px) {
+    .cardsContainer {
+        display: flex;
+        justify-content: space-around;
+        margin: 5% 0;
+        flex-wrap: wrap;
+    }
+  }
+  
