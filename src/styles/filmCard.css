@@ -1,5 +1,4 @@
 .cardContainer {
-    width: 300px;
     position: relative;
     box-sizing: border-box;
     text-align: center;
@@ -12,6 +11,8 @@
     0 4px 4px rgba(0,0,0,0.1), 
     0 8px 8px rgba(0,0,0,0.1),
     0 16px 16px rgba(0,0,0,0.1);
+    flex-basis: 22%;
+    margin: 1%;
 }
 
 .cardContainer p, .cardContainer h2 {
@@ -24,7 +25,7 @@
 
 
 .cardOverContainer {
-    width: 300px;
+    width: 100%;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -42,8 +43,8 @@
     transform: translateY(0%);
 }
 
-/* .cardContainer img {
-    width: 150px;
-    height: 300px;
-} */
+.cardContainer img {
+    width: 200px;
+    height: 200px;
+}
 

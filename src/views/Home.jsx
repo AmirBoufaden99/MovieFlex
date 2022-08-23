@@ -9,7 +9,6 @@ export default function Home() {
       <div>
           <Header />
           <FilmsList />
-          <FilmsList />
           <Footer />
       </div>
     )

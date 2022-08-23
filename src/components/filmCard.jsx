@@ -3,7 +3,6 @@ import "../styles/filmCard.css";
 
 export default function FilmCard(props) {
   return (
-    <div>
       <div className="cardContainer">
         <img src={props.link} alt="image" />
         <h2>{props.title}</h2>
@@ -13,6 +12,5 @@ export default function FilmCard(props) {
           <p>{props.overDesc}</p>
         </div>
       </div>
-    </div>
   );
 }
